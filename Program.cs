@@ -118,9 +118,9 @@ using System.Xml.Linq;
         {
             Veterenar veterenar = new Veterenar();
 
-            Dog dog = new Dog("Бобик", "мясо", "будка");
-            Cat cat = new Cat("Том", "мясо и молоко", "дома");
-            Hourse hourse = new Hourse("Стрела", "сено и яблоки", "конюшня");
+            Dog dog = new Dog("Бобик", "мясо", "будке");
+            Cat cat = new Cat("Том", "мясо и молоко", "доме");
+            Hourse hourse = new Hourse("Стрела", "сено и яблоки", "конюшне");
 
             veterenar.treatAnimal(dog);
             veterenar.treatAnimal(cat);
